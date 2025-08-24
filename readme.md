@@ -52,7 +52,7 @@ You just need a modern web browser like Google Chrome, Firefox, or Safari.
 
 That's it! You should now see the Saras dashboard running locally.
 
-##  usage
+##  Usage
 
 Using the dashboard is very intuitive:
 
