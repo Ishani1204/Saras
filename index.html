@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agricultural Water Management Dashboard – SARAS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="left">
+      <img src="assets/img/saras-logo.jpg" alt="SARAS" class="logo" />
+      <h1 id="title" data-i18n="title">Agricultural Water Management Dashboard</h1>
+    </div>
+    <div class="right">
+      <button id="themeToggle" class="toggle" aria-label="Toggle dark mode">🌙</button>
+      <select id="langSelect" class="select" aria-label="Language">
+        <option value="en">English</option>
+        <option value="hi">हिंदी</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <div class="row">
+        <select id="cropSelect" class="select wide" aria-label="Crop"></select>
+      </div>
+
+      <div class="row cards">
+        <div class="card soft-blue">
+          <div class="card-label" data-i18n="waterNeeded">Water Needed (mm)</div>
+          <div class="card-value" id="waterRange">—</div>
+        </div>
+        <div class="card soft-green">
+          <div class="card-label" data-i18n="growthDuration">Growth Duration (days)</div>
+          <div class="card-value" id="growthDays">—</div>
+        </div>
+      </div>
+
+      <h2 class="section-title" data-i18n="analysisTitle">Water Usage Analysis</h2>
+      <div class="chart-wrap">
+        <canvas id="usageChart" aria-label="Water usage chart" role="img"></canvas>
+      </div>
+      <div class="legend">
+        <span class="dot actual"></span>
+        <span data-i18n="legendActual">Actual Usage</span>
+        <span class="dot bench"></span>
+        <span data-i18n="legendBench">Sustainable Benchmark</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>© <span id="year"></span> <span data-i18n="footer">Water Conservation Initiative</span></small>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
