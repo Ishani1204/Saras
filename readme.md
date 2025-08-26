@@ -17,9 +17,9 @@ Saras is a web-based dashboard designed to help farmers and agricultural profess
 Here are a few snapshots of the Saras dashboard in action:
 
 <img width="1365" height="609" alt="1" src="https://github.com/user-attachments/assets/ef635430-5b86-4a9d-9dd7-5d14d7019b2a" />
- | <img width="1366" height="606" alt="3" src="https://github.com/user-attachments/assets/70702166-8aa1-4762-8660-7ce648fc3b42" />
- | <img width="1364" height="599" alt="2" src="https://github.com/user-attachments/assets/3059f5ea-22a8-4f35-812b-c81f50e5952c" />
- |
+  <img width="1366" height="606" alt="3" src="https://github.com/user-attachments/assets/70702166-8aa1-4762-8660-7ce648fc3b42" />
+  <img width="1364" height="599" alt="2" src="https://github.com/user-attachments/assets/3059f5ea-22a8-4f35-812b-c81f50e5952c" />
+ 
 
 ## 💻 Technologies Used
 
